@@ -67,6 +67,12 @@ body{
     font-family: "Baloo Bhaina 2", sans-serif;
     font-weight:500;
 }
+h1 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #7F55B1;
+}
 .info{
     font-size: 20px;
     line-height: 2;
@@ -80,6 +86,12 @@ body{
     background: #F49BAB;
     cursor: pointer;
 } 
+.image {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 .image img{
     width:0;
     transform: width 1s ease-in-out;
@@ -87,10 +99,22 @@ body{
 @media screen and (max-width: 900px){
     .gameContainer{
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
-    .gameInfo{
-        margin-top: 40px; 
-        font-size: 1rem;   
+    .gameInfo {
+    margin-top: 40px; 
+    font-size: 1.4rem;   
+    text-align: center;        
+    width: 100%;               
+    display: flex;             
+    flex-direction: column;    
+    align-items: center;       
+    }
+    .turnAndButton{
+        display: flex;             
+       flex-direction: column;    
+       align-items: center;  
     }
     .container{
         display: grid;
