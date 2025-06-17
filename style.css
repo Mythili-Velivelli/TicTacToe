@@ -4,16 +4,19 @@
     margin:0;
     padding:0;
     font-family: "Roboto", sans-serif;
-    color:rgb(194, 42, 208);
+    color:#7F55B1;
 }
 nav{
-    height:50px;
-    background: rgb(33, 135, 199);
+    height: 60px;
+    background-color: #F49BAB;
     display: flex;
     align-items: center;
     padding: 0 15px;
     font-size:27px;
     font-weight: 500 ;
+}
+body{
+    background-color: #FFE1E0;
 }
 .gameContainer{
     display: flex;
@@ -33,18 +36,18 @@ nav{
     height: 3px;
     width: 0vw;
     position: absolute;
-    background-color: #911d91;
-    transition: width 1s ease-in-out;
+    background-color: #F49BAB;
+    transition: width .3s ease-in-out;
 }
 .box{
-    border:2px solid black;
+    border:2px solid #7F55B1;
     font-size: 8vw;
     display: flex;
     align-items: center;
     justify-content: center;   
 }
 .box:hover{
-   background: rgb(217, 233, 240);
+   background: #f6bac5;
    cursor: pointer;
 }
 .br-0{
@@ -74,7 +77,7 @@ nav{
     border-radius: 6px;
     font-size: 20px;
     border-style: none;
-    background: rgb(217, 233, 240);
+    background: #F49BAB;
     cursor: pointer;
 } 
 .image img{
